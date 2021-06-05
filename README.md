@@ -1,4 +1,4 @@
-# typewriter
+# Typewriter
 A JS extension that emulates someone typing on a typewriter. It's a beta for now.
 
 ## How to use
@@ -16,5 +16,5 @@ The attributes:
 * `data-typetext`: the text to type
 * `data-typespeed`: the speed for each letter of the text
 
-=============
+------------------------------
 Copyright Kamboo 2021 lol
