@@ -48,5 +48,7 @@
 document.addEventListener("load", () => {
     let listDatatypetext = document.querySelectorAll("[data-typetext]");
 
-    new TypeWriter(listDatatypetext)
+    setTimeout(() => { 
+        new TypeWriter(listDatatypetext)
+    }, 1000)
 })
