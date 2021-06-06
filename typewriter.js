@@ -45,6 +45,8 @@
     }
 }
 
-let listDatatypetext = document.querySelectorAll("[data-typetext]");
+document.addEventListener("load", () => {
+    let listDatatypetext = document.querySelectorAll("[data-typetext]");
 
-new TypeWriter(listDatatypetext)
+    new TypeWriter(listDatatypetext)
+})
