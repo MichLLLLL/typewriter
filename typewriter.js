@@ -22,9 +22,9 @@
                 return console.error(new Error("TypeWriter: Element has no attributes called data-typetext."))
             }
             /**
-         * @type {String} text
-         * @type {Number} speed
-         */
+            * @type {String} text
+            * @type {Number} speed
+            */
             let text = element.dataset.typetext;
             let speed = isNaN(parseInt(element.dataset.typespeed)) ? 50 : parseInt(element.dataset.typespeed);
             let tag = element;
